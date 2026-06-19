@@ -24,11 +24,21 @@ A premium, dark-themed fitness tracking app built with Flutter and Clean Archite
 
 ## 📱 Screens
 
-| Dashboard | History | Analytics | Profile |
-|:---:|:---:|:---:|:---:|
+|          Dashboard          |       History       |   Analytics   |     Profile      |
+| :-------------------------: | :-----------------: | :-----------: | :--------------: |
 | Step ring, stats, hydration | Grouped workout log | Weekly charts | Goals & settings |
 
-*(Add your own screenshots here)*
+<p align="center">
+  <img src="assets/images/screenshot/Screenshot_splashPage.png" width="200" />
+  <img src="assets/images/screenshot/Screenshot_Dashborad1.png" width="200" />
+  <img src="assets/images/screenshot/Screenshot_Dashborad2.png" width="200" />
+  <img src="assets/images/screenshot/Screenshot_emptyHistory.png" width="200" />
+  <img src="assets/images/screenshot/Screenshot_History.png" width="200" />
+  <img src="assets/images/screenshot/Screenshot_emptyAnalytics.png" width="200" />
+  <img src="assets/images/screenshot/Screenshot_analytics.png" width="200" />
+  <img src="assets/images/screenshot/Screenshot_profile.png" width="200" />
+  <img src="assets/images/screenshot/Screenshot_addWorkout.png" width="200" />
+</p>
 
 ---
 
@@ -60,22 +70,23 @@ This means swapping SQLite for Firebase, for example, would only require rewriti
 
 ## 🛠 Tech Stack
 
-| Layer | Tool |
-|---|---|
-| State management | `flutter_bloc` + `equatable` |
-| Navigation | `go_router` |
-| Local database | `sqflite` + `path_provider` |
-| Charts | `fl_chart` |
-| Persistence (settings) | `shared_preferences` |
-| UI | `percent_indicator` |
-| Utilities | `uuid`, `intl` |
-| Font | Plus Jakarta Sans |
+| Layer                  | Tool                         |
+| ---------------------- | ---------------------------- |
+| State management       | `flutter_bloc` + `equatable` |
+| Navigation             | `go_router`                  |
+| Local database         | `sqflite` + `path_provider`  |
+| Charts                 | `fl_chart`                   |
+| Persistence (settings) | `shared_preferences`         |
+| UI                     | `percent_indicator`          |
+| Utilities              | `uuid`, `intl`               |
+| Font                   | Plus Jakarta Sans            |
 
 ---
 
 ## 🚀 Getting Started
 
 ### Prerequisites
+
 - Flutter SDK ≥ 3.10
 - Dart SDK ≥ 3.0
 - Android Studio / Xcode for emulator or physical device
